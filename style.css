@@ -121,6 +121,10 @@ footer {
   }
   img {
     margin-bottom: 100px;
+    margin-right: 0;
+  }
+  #notepadText {
+    bottom: 430px;
   }
 }
 /*# sourceMappingURL=style.css.map */
