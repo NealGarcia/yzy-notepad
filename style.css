@@ -1,4 +1,5 @@
 @import url(http://mcansh.github.io/yeezy-logo-font/assets/css/font.css);
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
 body {
   font-family: 'Yeezy';
   background: #222222;
@@ -6,9 +7,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .left {
@@ -40,6 +40,22 @@ img {
   border: 1px solid #635f59;
   color: #635f59;
   background-color: #222222;
+  outline: none;
   padding: 10px 10px 10px 10px;
+}
+
+#submit {
+  background: #635f59;
+  color: #222222;
+  border: 1px solid #635f59;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  padding: 7px 10px 9px 10px;
+}
+
+#submit:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
