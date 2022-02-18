@@ -80,3 +80,17 @@ button:hover{
     color: black;
     overflow-wrap: break-word;
 }
+
+footer{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;
+}
+
+#ghIcon{
+    width: 25px;
+}
+
+#ghIcon:hover{
+    opacity: 0.5;
+}
