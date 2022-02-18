@@ -1,4 +1,7 @@
 # YEEZY Notepad
+
+![img](screen.png)
+
 Create your own Kanye notepad meme with Yeezy notepad. Type out and submit any text to see it on Kanye's notepad. Click 'Save Image' to save the picture to your computer. 
 
 If you haven't seen the memes, check out these links:
