@@ -1,7 +1,7 @@
-
 const imgContainer = document.querySelector("#imgContainer")
+const img = document.querySelector("#image")
 const form = document.querySelector("#form")
-const saveButton = document.querySelector("#saveButton")
+const download = document.querySelector("#saveButton")
 let inputField = document.querySelector("#input")
 
 // Get data from form and append on image
@@ -27,10 +27,24 @@ function removePrevious(){
         elem.parentNode.removeChild(elem)
 }
 
-saveButton.addEventListener('click', (event) => {
-    console.log("test")
+// Turn HTML element to canvas and download on 'save' button click
+download.addEventListener('click', function(e){
     html2canvas(imgContainer).then(function(canvas){
-        imgContainer.appendChild(canvas)
+        const link = document.createElement('a')
+        link.download = 'yeezynotepad.png'
+        link.href = canvas.toDataURL();
+        link.click();
+        link.delete
     })
 })
+
+
+
+// saveButton.addEventListener('click', (event) => {
+//     console.log("test")
+//     html2canvas(imgContainer).then(function(canvas){
+//         document.location.href = canvas.toDataURL("image/png", "image/octet-stream")
+//         // imgContainer.appendChild(canvas)
+//     })
+// })
 
