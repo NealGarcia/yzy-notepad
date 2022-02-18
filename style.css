@@ -45,7 +45,7 @@ img {
   padding: 10px 10px 10px 10px;
 }
 
-#submit {
+#submit, button {
   background: #635f59;
   color: #222222;
   border: 1px solid #635f59;
@@ -54,9 +54,22 @@ img {
   cursor: pointer;
   outline: inherit;
   padding: 7px 10px 9px 10px;
+  margin-top: 3px;
+}
+
+button {
+  background: #222222;
+  color: #635f59;
+  margin-top: 3px;
 }
 
 #submit:hover {
+  text-decoration: underline;
+}
+
+button:hover {
+  background: #635f59;
+  color: #222222;
   text-decoration: underline;
 }
 
