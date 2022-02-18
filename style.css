@@ -9,6 +9,7 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  overflow: hidden;
 }
 
 .left {
@@ -59,10 +60,15 @@ img {
   text-decoration: underline;
 }
 
-#input_text {
-  font-family: "Rock Salt";
-  font-size: 12px;
+#notepadText {
+  position: relative;
+  bottom: 340px;
+  width: 120px;
+  height: 25%;
+  margin-left: 200px;
+  font-family: "Helvetica";
+  font-size: 14px;
   color: black;
-  left: 200px;
+  overflow-wrap: break-word;
 }
 /*# sourceMappingURL=style.css.map */
