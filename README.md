@@ -14,3 +14,7 @@ Made with HTML, Sass, and JavaScript and html2canvas
 
 ## Font
 https://github.com/mcansh/yeezy-logo-font
+
+## Bugs
+- Not responsive to mobile devies
+- HTML2Canvas captures white borders of image container
