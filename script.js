@@ -18,7 +18,6 @@ form.addEventListener('submit', (event) => {
     imgContainer.appendChild(text)
 })
 
-
 // Remove previous element from DOM
 function removePrevious(){
     // if element already exists in document, remove it
@@ -37,14 +36,3 @@ download.addEventListener('click', function(e){
         link.delete
     })
 })
-
-
-
-// saveButton.addEventListener('click', (event) => {
-//     console.log("test")
-//     html2canvas(imgContainer).then(function(canvas){
-//         document.location.href = canvas.toDataURL("image/png", "image/octet-stream")
-//         // imgContainer.appendChild(canvas)
-//     })
-// })
-
