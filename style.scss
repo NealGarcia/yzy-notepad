@@ -93,3 +93,26 @@ footer{
 #ghIcon:hover{
     opacity: 0.5;
 }
+
+@media only screen and (max-width: 890px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: visible;
+    }
+
+    .left{
+        margin-top: auto;
+    }
+
+    #ghIcon{
+        width: 25px;
+        display: none;
+    }
+
+    img{
+        margin-bottom: 100px;
+    }
+
+  }
