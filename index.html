@@ -10,13 +10,15 @@
 <body>
     <div class = "left">
         <h1 class = "title">YEEZY NOTEPAD</h1>
-        <form class = "form">
+        <form action = "/" id = "form">
             <label for="input">Enter Your Text Below</label><br>
-            <input type="text" id = "input" name = "input">
+            <input type="text" id = "input" name = "input" maxlength = "30">
             <input type="submit" id = "submit" value = "Submit →"> 
         </form>
     </div>
-    <img src  = "ye.jpeg" class = "kanye" alt = "ye"/>
+    <div id = "imgContainer">
+        <img src  = "ye.jpeg" class = "kanye" alt = "ye"/>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
