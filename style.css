@@ -86,9 +86,12 @@ button:hover {
 }
 
 footer {
+  float: left;
   position: absolute;
+  left: 0;
   bottom: 0;
-  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-bottom: 10px;
 }
 
 #ghIcon {
