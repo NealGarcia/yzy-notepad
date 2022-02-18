@@ -1,0 +1,39 @@
+@import url(http://mcansh.github.io/yeezy-logo-font/assets/css/font.css);
+$primaryColor: #635f59;
+$secondaryColor: #222222;
+
+body{
+    font-family: 'Yeezy';
+    background: $secondaryColor;
+    color: $primaryColor;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.title{
+    margin-top: 50px;
+}
+
+img{
+    margin-top: 50px;
+    margin-right: 25px;
+    width: 500px;
+}
+
+#input{
+    font-family: 'Helvetica';
+    margin-top: 10px;
+    border: 1px solid $primaryColor;
+    color: $primaryColor;
+    background-color: $secondaryColor;
+    // top right bottom left
+    padding: 10px 10px 10px 10px;
+}
